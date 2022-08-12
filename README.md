@@ -31,7 +31,7 @@ will open up the pdf in a separate tab/window.
 - Put your cursor at the end of  `#eval 1 + 1`. It should look like 
 
 <p align="center">
-  <img src="images/terminal.png">
+  <img src="images/lean.png">
 </p>
 
 - When you are satisfied, stop your workspace. Hit `F1` and select `Gitpod: Stop Workspace`. If 
