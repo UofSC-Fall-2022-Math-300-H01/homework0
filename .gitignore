@@ -1,0 +1,14 @@
+/build
+*.fls
+*.nav
+*.out
+*.log
+*.vrb
+*.toc
+*.snm
+*.fdb_latexmk
+*.aux
+*.xdv
+/build
+/lean_packages/*
+!/lean_packages/manifest.json
