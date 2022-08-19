@@ -4,3 +4,4 @@ image:
 vscode:
   extensions:
     - leanprover.lean4
+    - James-Yu.latex-workshop@8.28.0
