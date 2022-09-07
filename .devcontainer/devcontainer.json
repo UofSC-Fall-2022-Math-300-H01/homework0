@@ -39,5 +39,5 @@
 	"remoteEnv": {
         	"PATH" : "${containerEnv:PATH}:/home/vscode/.elan/bin"
 	},
-	"postStartCommand": "https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain none --no-modify-path -y"
+	"postStartCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain none --no-modify-path -y"
 }
