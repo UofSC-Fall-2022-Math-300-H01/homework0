@@ -37,7 +37,7 @@
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"remoteEnv": {
-                "PATH" : "${containerEnv:PATH}:/home/vscode/.elan/bin"
+                "PATH" : "${containerEnv:PATH}:${localEnv:HOME}/.elan/bin"
 	},
 	"postStartCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain leanprover/lean4:stable --no-modify-path -y"
 }
