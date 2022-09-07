@@ -39,6 +39,5 @@
 	"remoteEnv": {
         	"PATH" : "${containerEnv:PATH}:${localEnv:HOME}${localEnv:USERPROFILE}/.elan/bin"
 	},
-	"postStartCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- 
-	--default-toolchain stable --no-modify-path -y"
+	"postStartCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain stable -y"
 }
