@@ -1,6 +1,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/UofSC-Fall-2022-Math-300-H01/homework0)
 
-## Homework 0: Due 2022.08.22 
+## Homework 0
 
 Welcome to the Fall 2022 Math 300 -- Transitions to Advanced Mathematics. This assignment is intended to 
 familiarize you with tools used in this course.
